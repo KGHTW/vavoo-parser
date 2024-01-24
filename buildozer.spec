@@ -4,9 +4,8 @@ package.name = vavoo.parser
 package.domain = org.mastaaa
 source.dir = .
 source.include_exts = py, db, json, png, kv
-source.exclude_dirs = work, work.bakk
 version = 1.3.2
-requirements = python3, flask, kivy, kivymd, certifi>=2018.4.16, pillow, sqlite3, jnius, requests, urllib3, charset-normalizer==3.0.1, idna==3.4, chardet, pytz, oscpy
+requirements = android, hostpython3==3.9.6, python3==3.9.6, flask, kivy, kivymd, certifi>=2018.4.16, pillow, sqlite3, jnius, requests, urllib3, charset-normalizer==3.0.1, idna==3.4, chardet, pytz, oscpy
 android.permissions = INTERNET, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE, FOREGROUND_SERVICE
 orientation = portrait, landscape
 fullscreen = 0
